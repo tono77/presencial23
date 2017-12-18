@@ -9,7 +9,6 @@
         <title>Trilli Bi - Bootstrap Landing Page</title>
 		    
 		    <%= csrf_meta_tags %>
-		    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
         <!-- CSS -->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">        
@@ -30,15 +29,8 @@
     		<%= yield %>
     		
 	        <!-- Javascript -->
-        <script src="assets/js/jquery-1.11.1.min.js"></script>
-        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-        <script src="assets/js/jquery.backstretch.min.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-        <script src="assets/js/retina-1.1.0.min.js"></script>
-        <script src="assets/js/waypoints.min.js"></script>
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <script src="assets/js/scripts.js"></script>
-	</body>
+		    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
 
 </html>
 

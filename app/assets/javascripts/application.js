@@ -13,3 +13,14 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
+
+
+
+//= require jquery-1.11.1.js
+//= require bootstrap.js
+//= require jquery.backstretch.js
+//= require wow.js
+//= require retina-1.1.0.js
+//= require waypoints.js
+//= require jquery.magnific-popup.js
+//= require scripts.js
